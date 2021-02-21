@@ -8,6 +8,7 @@ const Header = () => {
             <div className="header-wraper">
             <div className="main-info">
                 <h1>Hi, I am Zsolt</h1>
+                <div className="middle"></div>
                 <Typed
                className="typed-text"
                strings={["self-taught developer.", "learning new technologies every day."]}
@@ -15,6 +16,7 @@ const Header = () => {
                backSpeed={50}
                loop
                 />
+              
                  <div className="button-div">
                 {/* <Link smooth={true} to="contacts" offset={-50} className="btn-main-offer" href="#">contact me</Link> */}
                 <a href="#" className="btn-main-offer">download cv</a><br></br>

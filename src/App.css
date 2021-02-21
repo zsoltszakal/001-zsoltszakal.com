@@ -6,9 +6,9 @@
 /************************** COLOURS **************************/
 :root {
   --primary-white: #fff;
-  --navbar-grey: #252525;
+  --navbar-blue: #393e46;
   --primary-green: #27ae60;
-  --primary-yellow: #ffd369;
+  --primary-yellow: #ffee93;
 }
 
 
@@ -42,11 +42,11 @@ nav {
 }
 
 .navbar-custom { 
-  background-color: var(--navbar-grey);
+  background-color: var(--navbar-blue);
 } 
 
 nav a.nav-link {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 575 !important;
   cursor: pointer;
  }
@@ -59,13 +59,13 @@ nav a.nav-link {
   margin-right: 1.5rem;
   margin-left: 0rem;
   color: var(--primary-white) !important;
-  border-bottom: 0.15rem solid var(--navbar-grey);
+  border-bottom: 0.15rem solid var(--navbar-blue);
 }
 
 .navbar-brand {
   color: var(--primary-yellow) !important;
   font-size: 1.5rem !important;
-  font-weight: 1000;
+  font-weight: bold;
   max-width: 17.25rem;
   padding: 0 !important;
   height: 2.5rem;
@@ -128,10 +128,10 @@ nav a.nav-link {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--navbar-grey);
+  background-color: var(--navbar-blue);
   transition: 0.8s ease-in-out;
-  color: var(--primary-green);
-  border: 1px solid var(--primary-yellow);
+  color: var(--primary-yellow);
+  border: 1px solid var(--primary-green);
 }
 
 .header-icon {
