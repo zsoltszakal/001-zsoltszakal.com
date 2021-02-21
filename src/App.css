@@ -42,8 +42,8 @@
 } 
 
 nav a.nav-link {
-  font-size: 0.9rem;
-  font-weight: 550 !important;
+  font-size: 1rem;
+  font-weight: 575 !important;
   cursor: pointer;
  }
 
@@ -52,7 +52,7 @@ nav a.nav-link {
 }
 
 .navbar-nav > li > a {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   margin-left: 0rem;
   color: var(--primary-white) !important;
   border-bottom: 0.15rem solid var(--navbar-grey);
@@ -60,19 +60,25 @@ nav a.nav-link {
 
 .navbar-brand {
   color: var(--primary-yellow) !important;
-  font-weight: 800;
+  font-size: 1.5rem !important;
+  font-weight: 1000;
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 2rem;
-  margin-left: 1rem !important;
+  height: 2.5rem;
+  margin-left: 0rem !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-bottom: 0.15rem solid var(--primary-green);
+  transition: 0.2s ease-in-out;
+  color: var(--primary-yellow) !important;
   }
   
   .navbar-nav > li > a:hover {
     border-bottom: 0.15rem solid var(--primary-green);
+    transition: 0.2s ease-in-out;
+    /* color: #eeeeee !important; */
   }
+
   
 
