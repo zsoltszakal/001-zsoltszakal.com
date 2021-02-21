@@ -6,7 +6,7 @@
 /************************** COLOURS **************************/
 :root {
   --primary-white: #fff;
-  --navbar-blue: #0a043c;
+  --navbar-blue: #1b2a49;
   --primary-green: #27ae60;
   --primary-yellow: #ffd369;
 }
@@ -173,7 +173,7 @@ nav a.nav-link {
 
 .about {
   /* height: 60vh; */
-  background-color: var(--navbar-blue);
+  background-color: #222831;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 100px;
