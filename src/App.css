@@ -7,8 +7,11 @@
 :root {
   --primary-white: #fff;
   --navbar-blue: #1b2a49;
+  --primary-blue: #222831;
   --primary-green: #27ae60;
   --primary-yellow: #ffd369;
+  --primary-orange: #ff9a00;
+  --primary-red: #f05454;
 }
 
 
@@ -47,7 +50,7 @@ nav {
 
 nav a.nav-link {
   font-size: 0.9rem;
-  font-weight: 575 !important;
+  font-weight: 400 !important;
   cursor: pointer;
  }
 
@@ -58,14 +61,14 @@ nav a.nav-link {
 .navbar-nav > li > a {
   margin-right: 1.5rem;
   margin-left: 0rem;
-  color: var(--primary-white) !important;
+  color: var(--primary-yellow) !important;
   border-bottom: 0.15rem solid var(--navbar-blue);
 }
 
 .navbar-brand {
-  color: var(--primary-yellow) !important;
+  color:var(--primary-green) !important;
   font-size: 1.5rem !important;
-  font-weight: bold;
+  font-weight: 600 !important;
   max-width: 17.25rem;
   padding: 0 !important;
   height: 2.5rem;
@@ -75,7 +78,7 @@ nav a.nav-link {
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-bottom: 0.15rem solid var(--primary-green);
   transition: 0.2s ease-in-out;
-  color: var(--primary-yellow) !important;
+  color: var(--primary-orange) !important;
   }
   
   .navbar-nav > li > a:hover {
@@ -148,7 +151,7 @@ nav a.nav-link {
 }
 
 .headerdiv {
-  height: 150px;
+  height: 200px;
 }
 
 
@@ -173,14 +176,14 @@ nav a.nav-link {
 
 .about {
   /* height: 60vh; */
-  background-color: #222831;
+  background-color: var(--primary-blue);
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 100px;
 }
 
 .about-heading {
-    color: #27ae60;
+    color: var(--primary-yellow);
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -188,8 +191,9 @@ nav a.nav-link {
   }
 
   .about-text {
-    color: var(--primary-yellow);
+    color: var(--primary-white);
     margin-top: 10px;
     letter-spacing: 2px;
     line-height: 2;
+    font-weight: 400 !important;
   }
