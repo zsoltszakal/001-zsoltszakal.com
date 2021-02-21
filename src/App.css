@@ -6,9 +6,9 @@
 /************************** COLOURS **************************/
 :root {
   --primary-white: #fff;
-  --navbar-blue: #393e46;
+  --navbar-blue: #0a043c;
   --primary-green: #27ae60;
-  --primary-yellow: #ffee93;
+  --primary-yellow: #ffd369;
 }
 
 
@@ -26,7 +26,7 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #27ae60; 
+  background: #292b2c; 
 }
 
 /* Handle on hover */
@@ -88,7 +88,7 @@ nav a.nav-link {
 
 .header-wraper {
   position: relative;
-  background: url(bgpic.jpg) no-repeat;
+  background: url(img3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -111,6 +111,7 @@ nav a.nav-link {
 .main-info h1 {
   color: var(--primary-white);
   font-weight: bolder;
+  font-size: 50px;
 }
 
 .btn-main-offer {
@@ -123,7 +124,7 @@ nav a.nav-link {
   display: inline-block;
   margin-left: 6px;
   width: 200px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 .btn-main-offer:hover {
@@ -138,7 +139,7 @@ nav a.nav-link {
   margin-top: 45px;
   margin-left: 25px;
   margin-right: 25px;
-  color: #dfe6e9;
+  color: #e8e8e8;
 }
 
 .header-icon:hover{
@@ -146,12 +147,14 @@ nav a.nav-link {
   transition: 0.5s ease-in-out;
 }
 
-
+.headerdiv {
+  height: 150px;
+}
 
 
 .typed-text {
   font-size: 1.75em;
-  color: var(--primary-grey);
+  color: var(--primary-white);
 }
 
 @media(max-width: 768px) {
@@ -161,4 +164,32 @@ nav a.nav-link {
   .typed-text {
     font-size: 1rem !important;
   }
+  }
+
+
+
+/************************** ABOUT **************************/
+
+
+.about {
+  /* height: 60vh; */
+  background-color: var(--navbar-blue);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+
+.about-heading {
+    color: #27ae60;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .about-text {
+    color: var(--primary-yellow);
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 2;
   }

@@ -19,11 +19,12 @@ const Header = () => {
               
                  <div className="button-div">
                 {/* <Link smooth={true} to="contacts" offset={-50} className="btn-main-offer" href="#">contact me</Link> */}
-                <a href="#" className="btn-main-offer">download cv</a><br></br>
+                {/* <a href="#" className="btn-main-offer">download cv</a><br></br> */}
                 <a href="https://github.com/zsoltszakal" target="_blank"><FontAwesomeIcon className="header-icon" icon={faGithub} size="2x" /></a>
                 <a href="https://www.linkedin.com/in/zsolt-szakal" target="_blank"><FontAwesomeIcon className="header-icon" icon={faLinkedin} size="2x" /></a>
                 <a href="https://twitter.com/ZsoltSzakal1" target="_blank"><FontAwesomeIcon className="header-icon" icon={faTwitter} size="2x" /></a>
             </div>
+            <div className="headerdiv"></div>
             </div>
 
 
