@@ -93,6 +93,7 @@ nav a.nav-link {
 
 .header-wraper {
   position: relative;
+  background-color: var(--navbar-blue);
   background: url(img3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -190,6 +191,7 @@ nav a.nav-link {
     margin-top: 40px;
     margin-bottom: 40px;
     font-weight: bold;
+    text-align: center;
   }
 
   .about-text {
@@ -198,6 +200,7 @@ nav a.nav-link {
     letter-spacing: 2px;
     line-height: 2;
     font-weight: 400 !important;
+    text-align: center;
   }
 
   .experience {
@@ -327,8 +330,8 @@ nav a.nav-link {
   position: absolute;
   border: 0.5px solid var(--primary-green);
   margin: auto auto auto auto;
-  background-color: #2d3436;
-  border-radius: 50%;
+  background-color: var(--bg-grey);
+  /* border-radius: 50%; */
   width: 2.5rem;
   height: 2.5rem;
   
@@ -370,10 +373,10 @@ nav a.nav-link {
 
 .skills .box {
   height: 4rem;
-  width: 17rem;
+  width: 15rem;
   border: 0.01rem solid var(--primary-yellow);
   padding: 0.625rem;
-  margin: 1rem auto;
+  margin: 1.25rem auto;
   transition: 0.3s ease-in-out;
   /* -webkit-box-shadow: 10px 10px 5px 0px var(--navbar-blue);
   -moz-box-shadow: 10px 10px 5px 0px var(--navbar-blue); */
@@ -390,6 +393,67 @@ nav a.nav-link {
   color: var(--primary-yellow);
   transition: 0.5s ease-in-out;
 }
+
+
+@media(max-width: 576px) {
+  .skills .box {
+    width: 9rem;
+  }
+  .skills .skill {
+    font-size: 0.55rem;
+  }
+  .skill-s {
+    font-size: 0.55rem;
+  }
+  .skills .icon {
+    font-size: 1rem;
+  }
+  .skills .circle{
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  }
+/* 
+@media(max-width: 768px) {
+  .skills .box {
+    width: 11rem;
+  }
+  .skills .skill {
+    font-size: 0.8rem;
+  }
+  .skill-s {
+    font-size: 0.8rem;
+  }
+  .skills .icon {
+    font-size: 1.2rem;
+  }
+  .skills .circle{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  }
+
+  @media(max-width: 992px) {
+    .skills .box {
+      width: 15rem;
+    }
+    .skills .skill {
+      font-size: 1rem;
+    }
+    .skill-s {
+      font-size: 0.8rem;
+    }
+    .skills .icon {
+      font-size: 1.2rem;
+    }
+    .skills .circle{
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+    
+    } */
 
 /************************** PROJECT **************************/
 
