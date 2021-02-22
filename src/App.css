@@ -197,11 +197,14 @@ nav a.nav-link {
   .about-text {
     color: var(--primary-white);
     margin-top: 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 2;
     font-weight: 400 !important;
     text-align: center;
+    margin-left: 18px;
   }
+
+  
 
   .experience {
     padding: 0.7rem;
