@@ -12,6 +12,8 @@
   --primary-yellow: #ffd369;
   --primary-orange: #ff9a00;
   --primary-red: #f05454;
+  --primary-grey: #dddddd;
+  --bg-grey: #212121
 }
 
 
@@ -132,10 +134,10 @@ nav a.nav-link {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--navbar-blue);
-  transition: 0.8s ease-in-out;
+  background-color: var(--primary-blue);
+  transition: 0.4s ease-in-out;
   color: var(--primary-yellow);
-  border: 1px solid var(--primary-green);
+  border: 1px solid var(--primary-yellow);
 }
 
 .header-icon {
@@ -299,4 +301,147 @@ nav a.nav-link {
       direction: ltr;
       width: 100%;
   }
+  }
+
+/************************** SKILLS **************************/
+
+.skills {
+  height: 100vh;
+  background-color: var(--bg-grey);
+}
+
+
+/************************** PROJECT **************************/
+
+.projects {
+  height: 100vh;
+  background-color: var(--primary-blue);
+}
+
+
+
+/************************** CONTACT FORM **************************/
+.contacts {
+  background:var(--bg-grey);
+  padding: 3rem 0rem;
+}
+
+.contacts h1 {
+  color: var(--primary-yellow) !important;
+  font-weight: bold;
+  padding: 1.3rem 0;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-yellow);
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+
+}
+
+  .contacts input, .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--primary-grey);
+    border-radius: 0;
+    color: var(--primary-yellow);
+    outline: 0  !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+  }
+  
+  .contacts .container {
+    padding: 6rem 0;
+  }
+  
+  .contacts input:focus, .contacts textarea:focus{
+    background: transparent;
+    color: var(--primary-yellow);
+    border-bottom: 0.125rem solid var(--primary-white);
+  }
+  
+  .contacts textarea {
+    height: 12.22rem !important;
+  }
+  
+  .contact-btn {
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    background: none;
+    border-color: var(--primary-green);
+  }
+  
+  .contacts .row {
+    margin: 0;
+  }
+  
+  @media(max-width: 768px){
+    .contacts .container {
+      padding: 0 1rem;
+    }
+    .contacts p {
+      padding: 0 1rem;
+    }
+  }
+  
+  .line {
+    position: relative;
+    width: 0;
+    top: -0.8rem;
+    height: 0.125rem;
+    background: var(--primary-yellow);
+    display: inline-block;
+  }
+  
+  input:focus+.line, textarea:focus+.line {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+  }
+  
+  input.form-control  {
+    margin: -0.3rem 0
+  }
+  
+  textarea.form-control  {
+    margin: -0.3rem 0
+  }
+  
+  .error-message {
+    color: var(--primary-red);
+    text-align: left;
+  }
+  
+  .success-message {
+    font-weight: 900;
+    color: var(--primary-green)
+  }
+
+/************************** FOOTER **************************/
+
+  .footer {
+    background: black;
+    color: var(--primary-grey);
+    padding: 2rem;
+  }
+
+ .footer a {
+    text-decoration: none;
+    color: var(--primary-grey);
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: var(--primary-green);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
   }

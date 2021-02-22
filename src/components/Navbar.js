@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const Navbar = () => { 
     return (
@@ -13,19 +14,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                  <li className="nav-item active">
-                    <a className="nav-link" href="#">Home</a>
+                 <Link smooth={true} to="header" offset={-50} className="nav-link" href="#">home</Link>
                  </li>
                  <li className="nav-item">
-                     <a className="nav-link" href="#">About</a>                        
+                 <Link smooth={true} to="about" offset={-47} className="nav-link" href="#">about</Link>                      
                  </li>
                  <li className="nav-item">
-                     <a className="nav-link" href="#">Skills</a>                        
+                 <Link smooth={true} to="skills" offset={-48} className="nav-link" href="#">skills</Link>                      
                  </li>
                  <li className="nav-item">
-                     <a className="nav-link" href="#">Projects</a>                        
+                 <Link smooth={true} to="projects" offset={-48} className="nav-link" href="#">projects</Link>                      
                  </li>
                                  <li className="nav-item">
-                     <a className="nav-link" href="#">Contact</a>                        
+                <Link smooth={true} to="contacts" offset={-48} className="nav-link" href="#">contact</Link>                     
                  </li>
                 </ul>   
                 </div>
