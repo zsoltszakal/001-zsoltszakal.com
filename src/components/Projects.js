@@ -34,7 +34,7 @@ const Skills = () => {
                     <div className="box">
                         <div className="circle"></div>
                         <h3 className="projecth3">CloudResumeChallenge</h3>
-                        <h3 className="projecth4">Deployin a static website using Amazon Web Services</h3>
+                        <h3 className="projecth4">Deploying a static website using Amazon Web Services</h3>
                         <img className="ppic" src= { p3pic } alt="Project1Pic"></img>
                         <h3 className="projecth5"><a href="https://github.com/zsoltszakal/cloudresumechallenge" target="_blank">GitHub GitHub -- In Progress</a></h3>
                         <h3 className="projecth5"><a href="https://github.com/zsoltszakal/cloudresumechallenge" target="_blank">Live Demo GitHub -- In Progress</a></h3>
