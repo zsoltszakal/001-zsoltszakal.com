@@ -11,8 +11,8 @@ const Header = () => {
                 <div className="middle"></div>
                 <Typed
                className="typed-text"
-               strings={["self-taught developer.", "learning new technologies every day."]}
-               typeSpeed={40}
+               strings={["cyber security and cloud enthusiast.", "self-taught developer.", "learning new technologies every day."]}
+               typeSpeed={50}
                backSpeed={50}
                loop
                 />
