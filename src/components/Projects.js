@@ -1,11 +1,60 @@
-import React from 'react'
+import React from 'react';
+import p1pic from "../p1.jpg"
+import p2pic from "../p2.jpg"
 
-function Projects() {
+const Skills = () => {
     return (
         <div className="projects">
-            Hello Again
-        </div>
+            <h1 className="py-5">Projects</h1>
+                <div className="container">
+                <div className="row">
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="box">
+                        <div className="circle"></div>
+                        <h3 className="projecth3">zNote Project</h3>
+                        <h3 className="projecth4">Simple note taking app without a database using React</h3>
+                        <img className="ppic" src= { p1pic } alt="Project1Pic"></img>
+                        <h3 className="projecth5">GitHub</h3>
+                        <h3 className="projecth5">Live Demo</h3>
+                    </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="box">
+                        <div className="circle"></div>
+                        <h3 className="projecth3">Portfolio Website</h3>
+                        <h3 className="projecth4">Simple note taking app without a database using React</h3>
+                        <img className="ppic" src= { p2pic } alt="Project1Pic"></img>
+                        <h3 className="projecth5">GitHub</h3>
+                        <h3 className="projecth5">Live Demo</h3>
+                    </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="box">
+                        <div className="circle"></div>
+                        <h3 className="projecth3">CloudGuruChallenge</h3>
+                        <h3 className="projecth4">Simple note taking app without a database using React</h3>
+                        <img className="ppic" src= { p1pic } alt="Project1Pic"></img>
+                        <h3 className="projecth5">GitHub</h3>
+                        <h3 className="projecth5">Live Demo</h3>
+                    </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div className="box">
+                        <div className="circle"></div>
+                        <h3 className="projecth3">OAuth & MongoDB</h3>
+                        <h3 className="projecth4">Simple note taking app without a database using React</h3>
+                        <img className="ppic" src= { p1pic } alt="Project1Pic"></img>
+                        <h3 className="projecth5">GitHub</h3>
+                        <h3 className="projecth5">Live Demo</h3>
+                    </div>
+                </div>
+                
+                </div>    
+                            
+                </div>
+            </div>
+        
     )
 }
 
-export default Projects
+export default Skills
