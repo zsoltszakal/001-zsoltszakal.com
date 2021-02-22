@@ -6,16 +6,15 @@
 /************************** COLOURS **************************/
 :root {
   --primary-white: #fff;
-  --navbar-blue: #10192c;
-  --primary-blue: #080d16;
+  --navbar-blue: #080d16;
+  --primary-blue: #0b111d;
   --primary-green: #27ae60;
   --primary-yellow: #ffd369;
   --primary-orange: #ff9a00;
   --primary-red: #f05454;
   --primary-grey: #dddddd;
-  --bg-grey: #05080f; 
+  --bg-grey: #0e1525; 
 }
-
 
 
 /************************** SCROLL BAR **************************/
@@ -364,7 +363,7 @@ nav a.nav-link {
 
 .skill-s {
   text-align: right;
-  color: black;
+  color: #0c341d;
   text-transform: uppercase;
   letter-spacing: 0.125rem;
   font-size: 0.85rem;
@@ -456,7 +455,7 @@ nav a.nav-link {
 .projecth4 {
   text-align: right;
   margin-left: 0px;
-  color: var(--primary-yellow);
+  color: var(--primary-white);
   text-transform: uppercase;
   font-size: 0.85rem;
   padding-top: 0.125rem;
@@ -466,14 +465,23 @@ nav a.nav-link {
 
 .projecth5 {
   margin-left: 0px;
-  color: var(--primary-green);
+  color: var(--primary-white);
   text-transform: uppercase;
   font-size: 0.85rem;
   padding-top: 0.125rem;
   padding-bottom: 0;
   text-align: center;
+  text-decoration: none;
 }
 
+.projecth5 a {
+  color: white;
+}
+
+.projecth5 a:hover {
+  text-decoration: none;
+  color: var(--primary-green)
+}
 
 
 .projects .box {
@@ -484,10 +492,11 @@ nav a.nav-link {
   margin: 4rem auto;
   transition: 0.3s ease-in-out;
   border-radius: 0px;
-  background: #222831;
-  box-shadow:  5px 5px 0px #0e1014,
-               -5px -5px 0px #36404e;
+  background: #080d16;
+  box-shadow:  5px 5px 0px #030509,
+               -5px -5px 0px #0d1523;
 }
+
 
 
 .ppic {
