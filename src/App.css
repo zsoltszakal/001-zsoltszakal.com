@@ -6,14 +6,14 @@
 /************************** COLOURS **************************/
 :root {
   --primary-white: #fff;
-  --navbar-blue: #1b2a49;
-  --primary-blue: #222831;
+  --navbar-blue: #10192c;
+  --primary-blue: #080d16;
   --primary-green: #27ae60;
   --primary-yellow: #ffd369;
   --primary-orange: #ff9a00;
   --primary-red: #f05454;
   --primary-grey: #dddddd;
-  --bg-grey: #212121; 
+  --bg-grey: #05080f; 
 }
 
 
@@ -319,6 +319,7 @@ nav a.nav-link {
   margin: 0px !important;
   padding-left: 0 !important;
   padding-right: 0 !important; 
+  height: 100vh;
 }
 
 
@@ -470,7 +471,7 @@ nav a.nav-link {
   font-size: 0.85rem;
   padding-top: 0.125rem;
   padding-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -482,12 +483,10 @@ nav a.nav-link {
   padding: 0.625rem;
   margin: 4rem auto;
   transition: 0.3s ease-in-out;
-  /* -webkit-box-shadow: 10px 10px 5px 0px var(--navbar-blue);
-  -moz-box-shadow: 10px 10px 5px 0px var(--navbar-blue); */
   border-radius: 0px;
   background: #222831;
-  box-shadow:  13px 13px 2px #20252e,
-               -13px -13px 2px #242b34;
+  box-shadow:  5px 5px 0px #0e1014,
+               -5px -5px 0px #36404e;
 }
 
 
