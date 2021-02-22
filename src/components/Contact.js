@@ -108,7 +108,6 @@ const Contacts = () => {
                             {/* SUBJECT INPUT */}
                             <div className="text-center">
                             <input
-
                             type="text"
                             className="form-control"
                             placeholder="Subject"

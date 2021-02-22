@@ -381,9 +381,9 @@ nav a.nav-link {
   padding: 0.625rem;
   margin: 3.25rem auto;
   transition: 0.3s ease-in-out;
-  /* -webkit-box-shadow: 10px 10px 5px 0px var(--navbar-blue);
-  -moz-box-shadow: 10px 10px 5px 0px var(--navbar-blue); */
-  /* box-shadow: 8px 8px 8px 0px black; */
+  -webkit-box-shadow: 10px 10px 5px 0px var(--navbar-blue);
+  -moz-box-shadow: 10px 10px 5px 0px var(--navbar-blue); 
+box-shadow: 8px 8px 8px 0px black;
   
 }
 
