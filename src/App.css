@@ -379,7 +379,7 @@ nav a.nav-link {
   width: 15rem;
   border: 0.01rem solid var(--primary-yellow);
   padding: 0.625rem;
-  margin: 1.25rem auto;
+  margin: 3.25rem auto;
   transition: 0.3s ease-in-out;
   /* -webkit-box-shadow: 10px 10px 5px 0px var(--navbar-blue);
   -moz-box-shadow: 10px 10px 5px 0px var(--navbar-blue); */
@@ -414,6 +414,9 @@ nav a.nav-link {
   .skills .circle{
     height: 2rem;
     width: 2rem;
+  }
+  .skills .box{
+    margin: 1.25rem auto;
   }
   
   }
