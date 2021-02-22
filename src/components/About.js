@@ -15,7 +15,7 @@ function About() {
         </div>
      </div>
         </div>
-        <div className="experience">
+        <div className="about exp">
                   <div className="d-flex justify-content-center my-5">
               <h1 className="exp-heading">experience</h1>
           </div>

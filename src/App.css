@@ -200,9 +200,13 @@ nav a.nav-link {
 
   .experience {
     padding: 0.7rem;
-    height: 750px;
+    height: 100vh;
     background-color: var(--bg-grey);
   }
+
+.exp {
+  padding: 0;
+}
   
   
   .experience-wrapper {
@@ -211,7 +215,7 @@ nav a.nav-link {
     overflow: hidden;
   }
   
-  .experience h1 {
+  .about h1 {
     text-transform: uppercase;
     color: var(--primary-yellow);
     margin-bottom: 30px;
@@ -225,7 +229,7 @@ nav a.nav-link {
     left: 50%;
     margin-left: -0.0625rem;
     width: 0.125rem;
-    height: 93%;
+    height: 100%;
     background-color: var(--primary-yellow);
     z-index: 1;
   }
@@ -258,7 +262,7 @@ nav a.nav-link {
   
   .timeline-content {
     width: 95%;
-    padding: 0 0.9375rem;
+    padding: 0rem 0.9375rem;
     color: var(--primary-white);
     direction: ltr;
   }
@@ -271,12 +275,13 @@ nav a.nav-link {
   .timeline-content p {
     font-size: 1rem;
   }
+
   
   @media(max-width:768px) {
     .timeline-content p {
       font-size: 0.85rem;
     }
-    .experience .container{
+    .about .container{
       padding-left: 0;
       
     }
