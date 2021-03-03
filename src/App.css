@@ -45,26 +45,37 @@ nav {
   z-index: 2;
 }
 
+.containernav {
+}
+
 .navbar-custom { 
   background-color: var(--navbar-blue);
 } 
 
-nav a.nav-link {
+.main-nav {
+  background-color: var(--navbar-blue);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar-hamburger {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.nav-link {
   font-size: 0.9rem;
   font-weight: 400 !important;
   cursor: pointer;
- }
-
- nav ul li {
   text-transform: uppercase;
-}
-
-.navbar-nav > li > a {
   margin-right: 1.5rem;
   margin-left: 0rem;
   color: var(--primary-yellow) !important;
   border-bottom: 0.15rem solid var(--navbar-blue);
-}
+ }
+
 
 .navbar-brand {
   color:var(--primary-green) !important;
@@ -76,16 +87,15 @@ nav a.nav-link {
   margin-left: 0rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+.nav-link:active, .nav-link:focus {
   border-bottom: 0.15rem solid var(--primary-green);
   transition: 0.2s ease-in-out;
   color: var(--primary-orange) !important;
   }
   
-  .navbar-nav > li > a:hover {
+  .nav-link:hover {
     border-bottom: 0.15rem solid var(--primary-green);
     transition: 0.2s ease-in-out;
-    /* color: #eeeeee !important; */
   }
 
 /************************** HEADER **************************/
