@@ -33,8 +33,8 @@ const Skills = () => {
                 <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div className="box">
                         <div className="circle"></div>
-                        <h3 className="projecth3">CloudResumeChallenge</h3>
-                        <h3 className="projecth4">Deploying a static website using Amazon Web Services</h3>
+                        <h3 className="projecth3">CloudGuruChallenge</h3>
+                        <h3 className="projecth4">Cloud Resume Challenge</h3>
                         <img className="ppic" src= { p3pic } alt="Project1Pic"></img>
                         <h3 className="projecth5"><a href="https://github.com/zsoltszakal/cloudresumechallenge" target="_blank">GitHub GitHub -- In Progress</a></h3>
                         <h3 className="projecth5"><a href="https://github.com/zsoltszakal/cloudresumechallenge" target="_blank">Live Demo GitHub -- In Progress</a></h3>

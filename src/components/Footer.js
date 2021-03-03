@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <Link smooth={true} to="header" offset={-50} href="#">HomeX</Link>
+                                <Link smooth={true} to="header" offset={-50} href="#">Home</Link>
                                 <br />
                                 <Link smooth={true} to="about" offset={-47} href="#">About</Link>
                                 <br />
