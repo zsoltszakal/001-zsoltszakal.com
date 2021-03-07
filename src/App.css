@@ -6,10 +6,6 @@
   
 }
 
-.elementor-background-overlay {
-  background-color: rgba(255, 255, 255, 0) !important;
-}
-
 
 /************************** COLOURS **************************/
 :root {
@@ -28,24 +24,28 @@
 /************************** SCROLL BAR **************************/
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #292b2c; 
+  background: var(--navbar-blue); 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #292b2c; 
+  background: var(--navbar-blue); 
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #27ae60; 
+::-webkit-scrollbar-thumb:hover  {
+  background: var(--primary-green); 
 }
 
+
+::-webkit-scrollbar-track:hover .thumb {
+  background: white; 
+}
 
 /************************** NAVBAR **************************/
 
