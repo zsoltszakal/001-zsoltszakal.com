@@ -1,7 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-scroll";
 import { Navbar, Nav } from 'react-bootstrap'
 
 
@@ -21,7 +20,7 @@ const Navbar1 = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ml-auto">
                     <li className="nav-item active">
-                      <Nav.Link  href="#header">home</Nav.Link>
+                      <Nav.Link  href="#home">home</Nav.Link>
                     </li>
                     <li className="nav-item active">
                       <Nav.Link href="#about">about</Nav.Link>

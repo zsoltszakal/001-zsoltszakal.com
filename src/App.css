@@ -43,10 +43,6 @@
 }
 
 
-::-webkit-scrollbar-track:hover .thumb {
-  background: white; 
-}
-
 /************************** NAVBAR **************************/
 
 nav {
@@ -671,4 +667,16 @@ box-shadow: 8px 8px 8px 0px black;
   
   .footer p {
     margin-bottom: 0;
+  }
+
+  .footer-link {
+    color:var(--primary-yellow) !important;
+    border-bottom: none;
+    margin-right: 0 !important;
+  }
+
+  .footer-link:hover {
+    border-bottom: none;
+    color: var(--primary-green) !important;
+    transition: 1s ease-in-out;
   }

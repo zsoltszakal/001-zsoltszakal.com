@@ -5,7 +5,7 @@ import { faGithub, faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-ico
 
 const Header = () => {
     return (
-            <div id="header" className="header-wraper header">
+            <div id="home" className="header-wraper header">
             <div className="main-info">
                 <h1>Hi, I am Zsolt</h1>
                 <div className="middle"></div>
