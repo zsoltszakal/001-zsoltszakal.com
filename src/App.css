@@ -4,11 +4,6 @@
   scroll-padding-top: 55px; /* height of sticky header */
 }
 
-body:after{
-  display:none;
-  content: url(img3.jpg);
-}
-
 
 /************************** COLOURS **************************/
 :root {
@@ -110,7 +105,7 @@ nav {
 .header-wraper {
   position: relative;
   background-color: var(--navbar-blue);
-  background: url(img3.jpg) no-repeat;
+  background: var(--navbar-blue) url(img3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
