@@ -6,7 +6,7 @@ import p4pic from "../p4.jpg"
 
 const Skills = () => {
     return (
-        <div className="projects">
+        <div id="projects" className="projects">
             <h1 className="py-5">Projects</h1>
                 <div className="container">
                 <div className="row">
