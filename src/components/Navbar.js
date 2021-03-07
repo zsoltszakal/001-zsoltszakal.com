@@ -20,19 +20,19 @@ const Navbar1 = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ml-auto">
                     <li className="nav-item active">
-                      <Nav.Link  href="#home">home</Nav.Link>
+                      <Nav.Link  rel="noopener noreferrer" href="#home">home</Nav.Link>
                     </li>
                     <li className="nav-item active">
-                      <Nav.Link href="#about">about</Nav.Link>
+                      <Nav.Link rel="noopener noreferrer" href="#about">about</Nav.Link>
                     </li>
                     <li className="nav-item active">
-                      <Nav.Link href="#skills">skills</Nav.Link>
+                      <Nav.Link rel="noopener noreferrer" href="#skills">skills</Nav.Link>
                     </li>
                     <li className="nav-item active">
-                      <Nav.Link href="#projects">projects</Nav.Link>
+                      <Nav.Link rel="noopener noreferrer" href="#projects">projects</Nav.Link>
                     </li>
                     <li className="nav-item active">
-                      <Nav.Link href="#contact">contact</Nav.Link>
+                      <Nav.Link rel="noopener noreferrer" href="#contact">contact</Nav.Link>
                     </li>
     </Nav>
   </Navbar.Collapse>

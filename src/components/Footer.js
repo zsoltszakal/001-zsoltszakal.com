@@ -32,20 +32,20 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                      <Nav.Link className="footer-link"  href="#home">home</Nav.Link>
-                      <Nav.Link  className="footer-link" href="#about">about</Nav.Link>
+                      <Nav.Link className="footer-link"  href="#home" rel="noopener noreferrer">home</Nav.Link>
+                      <Nav.Link  className="footer-link" href="#about" rel="noopener noreferrer">about</Nav.Link>
                             </div>
                             <div className="col">
-                      <Nav.Link className="footer-link" href="#skills">skills</Nav.Link>
-                      <Nav.Link  className="footer-link" href="#projects">projects</Nav.Link>
+                      <Nav.Link className="footer-link" href="#skills" rel="noopener noreferrer">skills</Nav.Link>
+                      <Nav.Link  className="footer-link" href="#projects" rel="noopener noreferrer">projects</Nav.Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">                        
-                        <a  rel="noopener" href="https://twitter.com/ZsoltSzakal1"><TwitterIcon className="mx-3" size={36} /></a>  
-                        <a  rel="noopener" href="https://www.linkedin.com/in/zsolt-szakal-130050202/"><LinkedinIcon className="mx-3" size={36}/></a>
-                        <a  rel="noopener" href="https://t.me/zsoltszakal"><TelegramIcon className="mx-3" size={36} /></a>                 
+                        <a  rel="noopener noreferrer" href="https://twitter.com/ZsoltSzakal1"><TwitterIcon className="mx-3" size={36} /></a>  
+                        <a  rel="noopener noreferrer" href="https://www.linkedin.com/in/zsolt-szakal-130050202/"><LinkedinIcon className="mx-3" size={36}/></a>
+                        <a  rel="noopener noreferrer" href="https://t.me/zsoltszakal"><TelegramIcon className="mx-3" size={36} /></a>                 
                         </div>
                         <p className="pt-3 text-center"> Copyright © &nbsp; 
                         {new Date().getFullYear()} &nbsp;

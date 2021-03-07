@@ -17,6 +17,6 @@
   "start_url": "https://zsoltszakal.com/",
   "display": "standalone",
   "theme_color": "#080d16",
-  "background_color": "080d16",
+  "background_color": "#080d16",
   "prefer_related_applications": true
 }
